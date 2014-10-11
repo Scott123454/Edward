@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  get '/exterior' => 'welcome#exterior'
+  get '/ground' => 'welcome#ground'
+
+
   resources :welcome
   get '/gallery', :to => redirect('welcome/gallery')
 

@@ -1,8 +1,14 @@
 class WelcomeController < ApplicationController
 
-	def show
+
+	def exterior
 	end
 
+	def ground
+	end
+
+	def show
+	end
 
 	def index
 		
