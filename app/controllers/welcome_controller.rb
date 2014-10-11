@@ -7,6 +7,9 @@ class WelcomeController < ApplicationController
 	def ground
 	end
 
+	def floor1st
+	end
+
 	def show
 	end
 

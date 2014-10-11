@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/exterior' => 'welcome#exterior'
   get '/ground' => 'welcome#ground'
+  get '/floor1st' => 'welcome#floor1st'
 
 
   resources :welcome

@@ -58,9 +58,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Welcome to the gallery</h1>
-        <p>Set in a quiet and convenient location, an attractive 2-bedroom house.  The finish is to a high specification with integrated Bosch appliances and luxury bathroom suites by Roca.  This is a rare opportunity to purchase a property of this size in Ascot that would make a perfect home or investment</p>
-       <%= link_to 'Back to home page', root_path, class: "btn btn-primary btn-lg" %>
+        <h1>Welcome to the ground floor gallery</h1>
+        <p>
+       <%= link_to 'Back to home gallery', gallery_path, class: "btn btn-primary btn-lg" %>
       </div>
     </div>
 
@@ -70,11 +70,8 @@
         
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Exterior</h2></div>
               <div class="panel-body">
-                 <%= image_tag 'Exterior_front.png', class: 'gallery-pic'%>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <%= link_to 'View pictures', exterior_path, class: "btn btn-default" %>
+                 <%= image_tag 'main1.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
@@ -82,22 +79,16 @@
 
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Ground Floor</h2></div>
               <div class="panel-body">
-                <%= image_tag 'main1.jpg', class: 'gallery-pic'%>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <%= link_to 'View pictures', ground_path, class: "btn btn-default" %>
+                <%= image_tag 'kitchen1.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
   
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>1st Floor</h2></div>
               <div class="panel-body">
-                <%= image_tag 'bedroom7.jpg', class: 'gallery-pic'%>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <%= link_to 'View pictures', floor1st_path, class: "btn btn-default" %>
+                <%= image_tag 'kitchen2.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
@@ -106,33 +97,24 @@
 
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Garden</h2></div>
               <div class="panel-body">
-                <%= image_tag 'Garden.png', class: 'gallery-pic'%>
-                <p>Low maintenance communal garden.</p>
-                <p><a class="btn btn-default" href="#" role="button">View pictures &raquo;</a></p>
+                <%= image_tag 'livingarea.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
 
          <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Entrance & rear</h2></div>
               <div class="panel-body">
-                 <%= image_tag 'Entrance.jpg', class: 'gallery-pic'%>
-                <p>Offset from a quiet road Edward Mews is secluded......</p>
-                <p><a class="btn btn-default" href="#" role="button">View pictures &raquo;</a></p>
+                 <%= image_tag 'downstairshallway.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Parking and Floor Plan</h2></div>
               <div class="panel-body">
-                <%= image_tag 'Floorplan_entire_development.png', class: 'gallery-pic'%>
-                <p>Two generous parking spaces positioned next to the property.</p>
-                <p><a class="btn btn-default" href="#" role="button">View pictures &raquo;</a></p>
+                <%= image_tag 'downstairstoilet2.jpg', class: 'gallery-pic'%>
               </div>
           </div>
         </div>
@@ -142,10 +124,10 @@
 
       <hr>
 
-      <footer>
+<!--       <footer>
         <p>&copy; Company 2014</p>
       </footer>
-    </div> <!-- /container -->
+    </div>  --><!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
