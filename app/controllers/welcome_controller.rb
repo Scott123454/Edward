@@ -10,6 +10,9 @@ class WelcomeController < ApplicationController
 	def floor1st
 	end
 
+	def outside
+	end
+
 	def show
 	end
 
