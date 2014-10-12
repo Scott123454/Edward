@@ -13,6 +13,9 @@ class WelcomeController < ApplicationController
 	def outside
 	end
 
+	def road
+	end
+
 	def show
 	end
 
