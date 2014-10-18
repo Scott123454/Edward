@@ -58,8 +58,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Welcome to the exterior gallery</h1>
+        <h1>Exterior gallery</h1>
         <p>
+        <%= link_to 'Back to home gallery', gallery_path, class: "btn btn-primary btn-lg" %>
       </div>
     </div>
 
@@ -70,51 +71,48 @@
         <div class="col-md-4">
           <div class="panel panel-default">
               <div class="panel-body">
-                 <%= image_tag 'Exterior2.png', class: 'gallery-pic'%>
-                 <%= link_to 'View Image', '#', class: "btn btn-primary btn-lg", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
+                 <%= image_tag 'Exterior2.png', class: "img-responsive"%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
               </div>
           </div>
         </div>
 
-  <div class="modal fade image-modal-Exterior2">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-          
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
-          <h4 class="modal-title">Exterior2</h4>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+              <div class="panel-body">
+                <%= image_tag 'Exterior_front.png', class: "img-responsive"%>
+                  <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior_front'} %>
+              </div>
+          </div>
         </div>
 
-        <div class="modal-body">
-          <%= image_tag 'Exterior2.png', class: 'gallery-pic'%>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+              <div class="panel-body">
+                <%= image_tag 'Exterior.png', class: "img-responsive"%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
+              </div>
+          </div>
         </div>
+
       </div>
-    </div>
-  </div>
 
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-              <div class="panel-body">
-                <%= image_tag 'Exterior_front.png', class: 'gallery-pic'%>
-              </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4">
-          <div class="panel panel-default">
-              <div class="panel-body">
-                <%= image_tag 'Exterior.png', class: 'gallery-pic'%>
-              </div>
-          </div>
-        </div>
-
-       <div class="row">
+      <div class="row">
 
         <div class="col-md-4">
           <div class="panel panel-default">
               <div class="panel-body">
-                <%= image_tag 'Exterior3.jpg', class: 'gallery-pic'%>
+                <%= image_tag 'Exterior3.jpg', class: "img-responsive"%>
+                  <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
               </div>
           </div>
         </div>
@@ -122,7 +120,10 @@
          <div class="col-md-4">
           <div class="panel panel-default">
               <div class="panel-body">
-                 <%= image_tag 'Exterior4.jpg', class: 'gallery-pic'%>
+                 <%= image_tag 'Exterior4.jpg', class: "img-responsive"%>
+                   <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
               </div>
           </div>
         </div>
@@ -130,15 +131,49 @@
         <div class="col-md-4">
           <div class="panel panel-default">
               <div class="panel-body">
-                <%= image_tag 'Exterior5.jpg', class: 'gallery-pic'%>
+                <%= image_tag 'Exterior5.jpg', class: "img-responsive"%>
+                  <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Exterior2'} %>
               </div>
           </div>
         </div>
 
       </div>
 
-
       <hr>
+
+      <div class="modal fade image-modal-Exterior2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Exterior2</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'Exterior2.png', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade image-modal-Exterior_front">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Exterior2</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'Exterior_front.png', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <!--       <footer>
         <p>&copy; Company 2014</p>
