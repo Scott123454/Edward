@@ -72,6 +72,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'main1.jpg', class: 'gallery-pic'%>
+                  <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-main1'} %>
               </div>
           </div>
         </div>
@@ -81,6 +84,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'kitchen1.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-kitchen1'} %>
               </div>
           </div>
         </div>
@@ -89,6 +95,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'kitchen2.jpg', class: 'gallery-pic'%>
+                   <br> 
+                 <br>
+                <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-kitchen2'} %>
               </div>
           </div>
         </div>
@@ -101,6 +110,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'livingarea.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-livingarea'} %>
               </div>
           </div>
         </div>
@@ -109,6 +121,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'downstairshallway.jpg', class: 'gallery-pic'%>
+                  <br> 
+                 <br>
+                <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-downstairshallway'} %>
               </div>
           </div>
         </div>
@@ -117,6 +132,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'downstairstoilet2.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-downstairstoilet2'} %>
               </div>
           </div>
         </div>
@@ -125,6 +143,103 @@
 
 
       <hr>
+
+      <div class="modal fade image-modal-main1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Kitchen</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'main1.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="modal fade image-modal-kitchen1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Kitchen</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'kitchen1.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="modal fade image-modal-kitchen2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Kitchen</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'kitchen2.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade image-modal-livingarea">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Living Area</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'livingarea.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="modal fade image-modal-downstairshallway">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Downstairs Hallway</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'downstairshallway.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="modal fade image-modal-downstairstoilet2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Downstairs WC</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'downstairstoilet2.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 <!--       <footer>
         <p>&copy; Company 2014</p>
