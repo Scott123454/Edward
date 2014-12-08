@@ -72,6 +72,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'Garden.png', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Garden'} %>
               </div>
           </div>
         </div>
@@ -80,6 +83,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'rear.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-rear'} %>
               </div>
           </div>
         </div>
@@ -88,6 +94,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'bikerack.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-bikerack'} %>
               </div>
           </div>
         </div>
@@ -99,12 +108,83 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'Entrance.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-Entrance'} %>
               </div>
           </div>
         </div>
 
       </div>
 
+
+      <div class="modal fade image-modal-Garden">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Garden</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'Garden.png', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade image-modal-rear">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">House rear</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'rear.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <div class="modal fade image-modal-bikerack">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Bikerack</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'bikerack.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+       <div class="modal fade image-modal-Entrance">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">Front</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'Entrance.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <hr>
 

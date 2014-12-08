@@ -1,5 +1,6 @@
 To do:
 
+Image names
 Add a database 
 Add a model to take an email address, number and offer
 Add an automated email that informs people if they are not the highest bidder

@@ -72,6 +72,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                  <%= image_tag 'viewfromroad.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-viewfromroad'} %>
               </div>
           </div>
         </div>
@@ -81,6 +84,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'viewofroad1.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-viewofroad1'} %>
               </div>
           </div>
         </div>
@@ -89,6 +95,9 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'viewofroad2.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-viewofroad2'} %>
               </div>
           </div>
         </div>
@@ -100,12 +109,81 @@
           <div class="panel panel-default">
               <div class="panel-body">
                 <%= image_tag 'viewtoroad.jpg', class: 'gallery-pic'%>
+                 <br> 
+                 <br>
+                 <%= link_to 'View Image','#', class: "btn btn-primary", data: { toggle: 'modal', target: '.image-modal-viewtoroad'} %>
               </div>
           </div>
         </div>
 
       </div>
 
+
+
+      <div class="modal fade image-modal-viewfromroad">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">View from road</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'viewfromroad.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade image-modal-viewofroad1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">View of road</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'viewofroad1.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade image-modal-viewofroad2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">View of road</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'viewofroad2.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade image-modal-viewtoroad">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+              <h4 class="modal-title">View of road</h4>
+            </div>
+
+            <div class="modal-body">
+              <%= image_tag 'viewtoroad.jpg', class: "img-responsive"%>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <hr>
 
