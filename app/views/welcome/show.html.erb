@@ -130,11 +130,11 @@
 
         <div class="col-md-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h2>Parking and Floor Plan</h2></div>
+            <div class="panel-heading"><h2>Floor Plan & Specifications</h2></div>
               <div class="panel-body">
                 <%= image_tag 'Floorplan_entire_development.png', class: 'gallery-pic'%>
                 <p>Two generous parking spaces positioned next to the property.</p>
-                <p><a class="btn btn-default" href="#" role="button">View pictures &raquo;</a></p>
+                <%= link_to 'View pictures', spec_path, class: "btn btn-default" %>
               </div>
           </div>
         </div>

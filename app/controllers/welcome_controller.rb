@@ -26,5 +26,9 @@ class WelcomeController < ApplicationController
 	def gallery
 	end
 
+	def spec
+	end
+
+
 
 end

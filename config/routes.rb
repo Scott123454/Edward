@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/floor1st' => 'welcome#floor1st'
   get '/outside' => 'welcome#outside'
   get '/road' => 'welcome#road'
+  get '/spec' => 'welcome#spec'
 
 
   resources :welcome
